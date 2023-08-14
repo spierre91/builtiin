@@ -3,7 +3,7 @@ import numpy as np
 import seaborn as sns 
 import matplotlib.pyplot as plt
 import plotly.express as px
-from sklearn.linear_models import LinearRegression
+
 
 
 df = pd.read_csv("synthetic_transaction_data_Dining.csv")
@@ -110,4 +110,3 @@ fig = px.choropleth(state_counts, locations='State', locationmode='USA-states',
 fig.show()
 
 
-model = LinearRegression()
